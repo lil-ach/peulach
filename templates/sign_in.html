@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign in/</title>
+</head>
+<body>
+
+<h1>Sign in</h1>
+<form action="{{ url_for('handle_data') }}" method="post">
+  <label for="email">email:</label><br>
+    <input type="text" id="email" name="email"><br>
+  <label for="password">password:</label><br>
+    <input type="text" id="password" name="password"><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
